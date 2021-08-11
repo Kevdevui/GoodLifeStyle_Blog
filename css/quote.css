@@ -1,0 +1,36 @@
+.containerBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+  }
+  
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+    width: 600px;
+    margin: 0.625rem;
+  }
+  
+  #quote {
+    text-align: center;
+    font-style: italic;
+    color:var(--txtDark);
+  }
+  
+  #author {
+    color: var(--salmon);
+    font-size: 1.25rem;
+  }
+
+  a{
+      text-decoration: none;
+      color: var(--white);
+  }
+  .btn{
+    border: none;
+  }
+
